@@ -47,15 +47,15 @@ DEEPSEEK_API_KEY=dein_deepseek_key
 ```
 
 **Option C: OpenAI**
-- GPT-4o-mini: $0.15 / 1M tokens
+- GPT-5-mini: $0.15 / 1M tokens
 - API Key von: https://platform.openai.com/api-keys
 ```
 OPENAI_API_KEY=dein_openai_key
-# Optional: Model wählen (default: gpt-4o-mini)
-OPENAI_MODEL=gpt-4o-mini
+# Optional: Model wählen (default: gpt-5-mini)
+OPENAI_MODEL=gpt-5-mini
 ```
 
-**Hinweis:** Das Spiel läuft auch ohne API-Key mit statischen Fallback-Texten.
+**Hinweis:** Das Spiel läuft auch ohne API-Key mit statischen Fallback-Texten. <- Not recommended!
 
 ## Steuerung
 
@@ -111,12 +111,11 @@ dungeon_crawler/
 
 ## Geplante Features (TODO)
 
+- [ ] Bring your own AI / local AIs
 - [ ] Skills & Abilities (Wuchtschlag, Schildwall, etc.)
-- [ ] Save/Load System
-- [ ] Verbesserte Terminal-UI (Farben, Panels)
-- [ ] Mehr Monster & Items
-- [ ] Skill-Tree
-- [ ] Bessere Balance
+- [X] Save/Load System
+- [X] Verbesserte Terminal-UI (Farben, Panels)
+- [X] Mehr Monster & Items
 
 ## Technologie
 
